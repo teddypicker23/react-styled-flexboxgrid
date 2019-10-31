@@ -30,7 +30,8 @@
     "karma:watch": "cross-env NODE_ENV=test karma start --no-single-run",
     "mocha": "cross-env NODE_ENV=test mocha --require @babel/register **/*.test.js",
     "mocha:watch": "cross-env NODE_ENV=test mocha --watch --require @babel/register **/*.test.js",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "author": "Loic Mahieu",
   "license": "MIT",
